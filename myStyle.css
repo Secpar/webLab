@@ -64,11 +64,18 @@ section a {
     flex-flow: row nowrap;
     max-width: 935px;
     background-color: white;
-    padding-top: 300px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h100 {
+    margin-top: 80px;
 }
 
 .blogpost {
-    float: left;
     max-width: 614px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
