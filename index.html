@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traverous - Personal Travel Journal</title>
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="myStyle.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_16x16.png">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
+        <div class=" container ">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class=" navbar-brand " href="# ">
+                        <img src="images/favicon.png " width="30 " height="30 "> Traverous
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item ">
+                    <a class="nav-link " href="_ ">Sign Up</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href=" ">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-------Page Starts Here-------->
+    <div class="masthead ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-7 my-auto ">
+                    <div class="header-content mx-auto ">
+                        <h1 class="mb-5 " id="title ">Record inspiring travel stories with Traverous</h1>
+                        <h3 class="mb-5 " id="subtitle ">Traverous is your Personal Travel Journal that keeps your special moments special.
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-5 my-auto ">
+                    <h1 class="mb-5 ">Not a memeber?</h1>
+                    <h3 class="mb-5 ">Sign up now</h3>
+                    <form action="getData.php " method="GET ">
+                        <div class="form-group ">
+                            <input type="text " class="form-control " name="name " placeholder="Your Name ">
+                        </div>
+                        <div class="form-group ">
+                            <input type="text " class="form-control " name="username " placeholder="Username ">
+                        </div>
+                        <div class="form-group ">
+                            <input type="password " class="form-control " name="password " placeholder="Password ">
+                        </div>
+                        <input type="submit " class="btn btn-outline-dark " name="signUp " value="Sign Up ">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
