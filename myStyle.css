@@ -15,6 +15,15 @@ body {
     color: white;
 }
 
+h3,
+#towhite {
+    color: white;
+}
+
+#toblack {
+    color: black;
+}
+
 #title {
     text-align: center;
     margin-bottom: 1rem!important;
@@ -43,4 +52,10 @@ section {
 
 section a {
     color: black;
+}
+
+.box {
+    border: solid 1px white;
+    border-radius: 5%;
+    padding: 5%;
 }
