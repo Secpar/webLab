@@ -62,11 +62,31 @@ section a {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-flow: row nowrap;
-    max-width: 935px;
     background-color: white;
     padding-top: 50px;
+}
+
+.timeline_margin {
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.timeline_img {
+    width: 520px;
+    height: 550px;
+}
+
+.timeline {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.profile_timeline {
+    border: 3px solid #E74C3C;
+    width: 100%;
 }
 
 .h100 {
